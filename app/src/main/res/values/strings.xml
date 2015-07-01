@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Greatings App</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="enter_name">Enter your name:</string>
+    <string name="action_settings">Settings</string>
+</resources>
