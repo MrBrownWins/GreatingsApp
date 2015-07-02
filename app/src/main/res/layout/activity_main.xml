@@ -25,13 +25,13 @@
             android:inputType="textPersonName"
             android:text="John Appleseed"
             android:ems="10"
-            android:id="@+id/editText" />
+            android:id="@+id/userName"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Wait..."
+            android:text="@string/wait"
             android:id="@+id/textView"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"/>
@@ -41,7 +41,9 @@
             android:layout_height="wrap_content"
             android:text="Say Hello"
             android:id="@+id/button"
-            android:layout_gravity="center_vertical" />
+            android:layout_gravity="center_vertical"
+            android:onClick="show"
+            android:background="#fffff7fd" />
 
 
     </LinearLayout>
